@@ -1,0 +1,11 @@
+<launch>
+
+<include file="$(find baxter_gazebo)/launch/baxter_world.launch" />
+
+
+<include file="$(find baxter_sim_hardware)/launch/baxter_sdk_position_rqt.launch" />
+<!--<include file="$(find baxter_sim_hardware)/launch/baxter_sdk_velocity_rqt.launch" />-->
+
+<node name="joint_pos_keyboard" pkg="baxter_examples" type="joint_position_keyboard"/> 
+
+</launch>
