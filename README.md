@@ -20,7 +20,7 @@ $ source devel/setup.bash
 ```
 
 ## Running the Demo code
-First, bring up Gazebo, Moveit and the Baxter
+First, bring up Gazebo, and Baxter
 ```bash
 $  ./baxter.sh sim
 $ roslaunch system_launch everything.launch
