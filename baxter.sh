@@ -19,11 +19,11 @@ unset your_hostname
 # will be overwritten by any variables set here.
 
 # Specify Baxter's hostname
-baxter_hostname="baxter_hostname.local"
+baxter_hostname="tripoli"
 
 # Set *Either* your computers ip address or hostname. Please note if using
 # your_hostname that this must be resolvable to Baxter.
-your_ip="192.168.XXX.XXX"
+your_ip="128.59.15.62"
 #your_hostname="my_computer.local"
 
 # Specify ROS distribution (e.g. indigo, hydro, etc.)
